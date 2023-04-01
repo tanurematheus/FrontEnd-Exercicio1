@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.item {
+    display: none;
+}
+
+.item.active {
+    display: block;
+}
